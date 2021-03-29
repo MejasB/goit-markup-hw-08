@@ -1,0 +1,24 @@
+
+header {
+    border-bottom: 1px solid #ECECEC;
+    }
+
+.menu-item.active{
+    color: #2196F3;
+}
+.menu-item{
+    color: black;
+}
+.menu-item:hover,
+.menu-item:focus {
+    color: #2196F3;
+}
+
+.mail:hover .icon-envelope{
+    fill: #2196F3;
+}
+
+
+.tel:hover .icon-telefone {
+    fill:#2196F3;
+}

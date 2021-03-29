@@ -1,0 +1,135 @@
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px 30px;
+}
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent ;
+    cursor: pointer;    
+}
+.social-list-icon {
+    fill:#AFB1B8 ;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--primary-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: var(--back-color);
+}
+
+.workers {
+    text-align: center;
+    font-weight: bold;
+}
+.list-name{
+    margin-bottom: 50px;
+}
+.footer-links {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+.footer-social-link {
+    display: flex;
+    justify-content: space-between;
+}
+.address {
+    margin: 20px 0 9px;
+}
+
+.footer-invite {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--back-color);
+    line-height: 1.14;
+}
+.footer-social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1) ;
+    cursor: pointer;    
+}
+.footer-icon {
+    fill: var(--back-color);
+}
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+    background-color: var(--primary-color);
+}
+.subscribe {
+    margin-left: 93px;
+}
+.sub-name {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--back-color);
+    margin: 0;
+    margin-bottom: 20px;    
+}
+.sub-name-item {
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--back-color);
+}
+
+
+.subscribe-items {
+    padding-left: 16px;
+    margin: 0;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--back-color);
+    background: transparent;
+}
+.mail-telegram {
+    display: flex;
+}
+.subscribe-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-button {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.sub-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}

@@ -1,0 +1,35 @@
+.icon-envelope {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    background-size: cover;
+}
+.mail:hover .icon-envelope{
+    fill: #2196F3;
+}
+.icon-telefone {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    width: 10px;
+    height: 16px;
+    margin-bottom: -3px;
+    fill: #757575;
+    background-size: cover;
+    
+}
+
+.tel:hover .icon-telefone {
+    fill:#2196F3;
+}
+.tele-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: white;
+    background-color: transparent;
+
+}

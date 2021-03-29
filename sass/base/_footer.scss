@@ -1,0 +1,52 @@
+footer .container {
+    display: flex;
+}
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+.logo-second-part {
+    font-weight: bold;
+    color: #000;
+}
+.foot-mail {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+.foot-tel {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;    
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.logo-last {
+    font-family: Ralewey;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 20px ;
+}
+.logo-second {
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+color: var(--back-color);
+}
+.mail-one {
+    margin-bottom: 9px;
+}
+.subscribe {
+    margin-left: 93px;
+}

@@ -1,0 +1,31 @@
+.section {
+    padding-bottom: 94px;
+}
+.works-img {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.team, 
+.what-we-doing-title {   
+    margin-bottom: 50px;
+}
+.desc-img {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--back-color);
+    line-height: 1.14;
+    text-align: center;
+    margin: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(47, 48, 58, 0.8);
+}

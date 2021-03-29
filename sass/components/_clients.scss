@@ -1,0 +1,40 @@
+.company-clients{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+.company-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.company-list-icon {
+    fill: #AFB1B8;
+}
+.company-list:hover,
+.company-list:focus {
+    border-color: var(--primary-color);
+}
+.company-list:hover .company-list-icon,
+.company-list:focus .company-list-icon {
+    fill: var(--primary-color);
+}
+
+.clients {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8 ;
+}

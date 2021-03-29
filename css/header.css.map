@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,OAAO;EACpB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,oBAAoB;CAC9B",
+    "sources": [
+        "../sass/base/header.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}
