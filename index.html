@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork-07</title>
+    <title>HomeWork-08</title>
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -27,13 +27,13 @@
                     </a>
                     <ul class="navigation-class">
                         <li class="studio">
-                            <a href="index.html" class="menu-item active">Студия</a>
+                            <a href="index.html" class="menu-item-desk active">Студия</a>
                         </li>
                         <li class="port">
-                            <a href="./portfolio.html" class="menu-item">Портфолио</a>
+                            <a href="./portfolio.html" class="menu-item-desk">Портфолио</a>
                         </li>
                         <li class="contacts">
-                            <a href="#contacts" class="menu-item">Контакты</a>
+                            <a href="#contacts" class="menu-item-desk">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -44,7 +44,8 @@
                             <use href="./img/svg/sprite.svg#envelope"></use>
                             </svg>
                         <span class="nav-link">info@devstudio.com</span>
-                    </a></li>
+                    </a>
+                </li>
                     <li class="tel">
                         <a href="tel:+380961111111"> 
                             <svg class="icon-telefone">
@@ -55,9 +56,60 @@
                     </a>
                     </li>
                 </ul>
+                <button type="button" class="menu-btn" data-menu-button>
+                    <svg class="mobile-menu">
+                        <use href="./img/svg/sprite.svg#icon-menu"></use>
+                    </svg>
+                </button>
+                <div class="menu-item" data-menu>
+                        <ul class="menu-items">
+                            <li class="menu-names">
+                                <a class="mobile-studio active" href="./index.html">
+                                Студия
+                            </a>
+                            </li>
+
+                            <li class="menu-names">
+                                <a class="mobile-studio" href="./portfolio.html">
+                                    Портфолио
+                                </a>
+                                </li>
+                            <li class="menu-names">Контакты</li>
+                        </ul>
+                        <ul class="mobile-menu-link">
+                            <li class="mobile-links-tel">
+                                <a class="mobile-tel-link" href="tel:+380961111111"> 
+                                    <span class="">+38 096 111 11 11</span>
+                                </a>
+                            </li>
+                            <li class="mobile-links-mail">
+                                <a class="mobile-tel-link-adress" href="mailto:info@devstudio.com">
+                                    <span class="">info@devstudio.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="mobile-links-bottom">
+                            <li class="social-links-mobile-menu">
+                                <a class="mobile-links-bottom" href="#">Instagram</a>
+                            </li>
+                            <li class="social-links-mobile-menu">
+                                <a class="mobile-links-bottom" href="#">Twitter</a>
+                            </li>
+                            <li class="social-links-mobile-menu">
+                                <a class="mobile-links-bottom" href="#">FaceBook</a>
+                            </li>
+                            <li class="social-links-mobile-menu">
+                                <a class="mobile-links-bottom" href="#">LinkedIn</a>
+                            </li>
+                        </ul>
+                        <button  type="button" class="close-button" data-menu-close>
+                            <svg class="model-close-btn">
+                                <use href="./img/svg/sprite.svg#icon-close"></use>
+                            </svg>
+                        </button>
             </div>
-        </div>
-    </header>
+    </div>
+</header>
 
 <main>
     
@@ -66,29 +118,31 @@
             <button type="button" class="order" data-modal-open >Заказать услугу</button>
 
     </section>
+
     <section>
         <div class="container">
         <ul class="description-items">
             
             <li class="list_item icon_delivery">
-                <h3>Внимание к деталям</h3>
+                <h3 class="mobile-desk-items">Внимание к деталям</h3>
                 <h4 class="description-one">Идейные соображения, а также начало повседневной работы по формированию
                     позиции.</h4></li>
             <li class="list_item">
-                <h3>Пунктуальность</h3>
+                <h3 class="mobile-desk-items">Пунктуальность</h3>
                 <h4 class="description-one">Задача организации, в особенности же рамки и место обучения кадров влечет за
                     собой. </h4></li>
             <li class="list_item">
-                <h3>Планирование</h3>
+                <h3 class="mobile-desk-items">Планирование</h3>
                 <h4 class="description-one">Равным образом консультация с широким активом в значительной степени
                     обуславливает.</h4></li>
             <li class="list_item">
-                <h3>Современные технологии</h3>
+                <h3 class="mobile-desk-items">Современные технологии</h3>
                 <h4 class="description-one">Значимость этих проблем настолько очевидна, что реализация плановых
                     заданий.</h4></li>
         </ul>
     </div>
-    </section>
+</section>
+
     <section class="section">
         <div class="container">
         <h2 class="what-we-doing-title">Чем мы занимаемся</h2>
@@ -108,11 +162,13 @@
         </ul>
     </div>
     </section>
+
     <section class="middle">
     <div class="container">
         <h2 class="team">Наша команда</h2>
             <ul class="command_items">
-                <li class="command-item"><img src="img/pl-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                <li class="command-item">
+                    <img class="people-img" src="img/pl-1-480.jpg" alt="Игорь Демьяненко" >
                     <h3 class="workers">Игорь Демьяненко</h3>
                         <p class="identity">Product Designer</p>
                         <ul class="social-list list">
@@ -138,7 +194,8 @@
                             </li>
                         </ul>
                     </li>
-                <li class="command-item"><img src="img/pl-2.jpg" alt="Ольга Репина" width="270" height="260">
+                <li class="command-item">
+                    <img class="people-img" src="img/pl-2-480.jpg" alt="Ольга Репина" >
                     <h3 class="workers">Ольга Репина</h3>
                         <p class="identity">Frontend Developer</p>
                         <ul class="social-list list">
@@ -164,7 +221,8 @@
                             </li>
                         </ul>
                     </li>
-                <li class="command-item"><img src="img/pl-3.jpg" alt="Николай Тарасов" width="270" height="260">
+                <li class="command-item">
+                    <img class="people-img" src="img/pl-3-480.jpg" alt="Николай Тарасов" >
                     <h3 class="workers" >Николай Тарасов</h3>
                         <p class="identity">Marketing</p>
                         <ul class="social-list list">
@@ -190,7 +248,8 @@
                             </li>
                         </ul>
                     </li>
-                <li class="command-item"><img src="img/pl-4.jpg" alt="Михаил Ермаков" width="270" height="260">
+                <li class="command-item">
+                    <img class="people-img" src="img/pl-4-480.jpg" alt="Михаил Ермаков">
                     <h3 class="workers" >Михаил Ермаков</h3>
                         <p class="identity">UI Designer</p>
                         <ul class="social-list list">
@@ -219,56 +278,55 @@
         </div>
     </ul>
 </section>
+
+
 <section class="container">
     <h2 class="list-name">Постоянные клиенты</h2>
     <ul class="company-clients">
-        <li>
+        <li class="clients-numbers">
             <a href="" class="company-list">
                 <svg class="company-list-icon" width="45" height="50"><use href="./img/svg/sprite.svg#company-1"></use></svg>
             </a>
         </li>
-        <li>
+        <li class="clients-numbers">
             <a href="" class="company-list">
                 <svg class="company-list-icon" width="40" height="52"><use href="./img/svg/sprite.svg#company-2"></use></svg>
             </a>
         </li>
-        <li>
+        <li class="clients-numbers">
             <a href="" class="company-list">
                 <svg class="company-list-icon" width="41" height="43"><use href="./img/svg/sprite.svg#company-3"></use></svg>
             </a>
         </li>
-        <li>
+        <li class="clients-numbers">
             <a href="" class="company-list">
                 <svg class="company-list-icon" width="80" height="42"><use href="./img/svg/sprite.svg#company-4"></use></svg>
             </a>
         </li>
-        <li>
+        <li class="clients-numbers">
             <a href="" class="company-list">
                 <svg class="company-list-icon" width="59" height="47"><use href="./img/svg/sprite.svg#company-5"></use></svg>
             </a>
         </li>
-        <li>
+        <li class="clients-numbers">
             <a href="" class="company-list">
                 <svg class="company-list-icon" width="89" height="46"><use href="./img/svg/sprite.svg#company-6"></use></svg>
             </a>
         </li>
     </ul>
 
-
-
-
 </section>
 </main>
 <footer>
     <div class="container">
-        <div>
+        <div class="footer-logotype">
     <a class="logo-last" href="index.html">Web<span class="logo-second">Studio</span></a>
     <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
     <ul>
         <li class="mail-one">
             <a class="foot-mail" href="mailto:info@example.com">info@example.com</a>
         </li>
-        <li>
+        <li class="foot-tel-item">
             <a class="foot-tel" href="tel:+380991111111">+38 099 111 11 11</a>
         </li>
     </ul>
@@ -356,6 +414,7 @@
     </div>
 </div>
 </div>
+<script src="./js/menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>
 </html>
